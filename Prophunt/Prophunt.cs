@@ -12,6 +12,7 @@ namespace Prophunt;
 ///   The classic Prophunt gamemode, ported to Counter-Strike 2.
 /// </summary>
 public class Prophunt : BasePlugin {
+  public static Prophunt? Instance { get; private set; }
   private readonly IServiceProvider provider;
   private IReadOnlyList<IPluginBehavior>? extensions;
   private IServiceScope? scope;
@@ -20,7 +21,8 @@ public class Prophunt : BasePlugin {
   ///   The Prophunt plugin.
   /// </summary>
   /// <param name="provider"></param>
-  public Prophunt(IServiceProvider provider) { this.provider = provider; }
+  public Prophunt(IServiceProvider provider)
+  { Instance = this; this.provider = provider; }
 
   /// <inheritdoc />
   public override string ModuleName => "Prophunt";
