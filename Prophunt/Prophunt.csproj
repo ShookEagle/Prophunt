@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Prophunt.Messaging\Prophunt.Messaging.csproj" />
       <ProjectReference Include="..\Prophunt.Public\Prophunt.Public.csproj" />
     </ItemGroup>
 

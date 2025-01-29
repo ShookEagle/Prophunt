@@ -1,6 +1,7 @@
 using CounterStrikeSharp.API.Core;
 using Microsoft.Extensions.DependencyInjection;
 using Prophunt.Messaging;
+using Prophunt.Public.Extensions;
 
 namespace Prophunt;
 
