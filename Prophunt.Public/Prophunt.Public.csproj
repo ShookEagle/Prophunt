@@ -10,4 +10,8 @@
       <PackageReference Include="CounterStrikeSharp.API" Version="1.0.303" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Utils\" />
+    </ItemGroup>
+
 </Project>

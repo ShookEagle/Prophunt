@@ -8,6 +8,7 @@ public static class MessagingServiceExtension
 {
     public static void AddProphuntMessaging(this IServiceCollection serviceCollection)
     {
-        serviceCollection.AddPluginBehavior<IPrivateMessenger, PrivateMessenger>();
+        serviceCollection.AddPluginBehavior<IMessenger, Messenger>();
+        serviceCollection.AddPluginBehavior<IAnnouncer, Announcer>();
     }
 }

@@ -1,6 +1,6 @@
 namespace Prophunt.Public.Mod.Messaging;
 
-public interface IPrivateMessenger
+public interface IAnnouncer
 {
     
 }

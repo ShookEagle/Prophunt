@@ -15,8 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lang", "lang", "{43EA69D0-4
 		lang\en.json = lang\en.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prophunt.Messaging", "mod\Prophunt.Messaging\Prophunt.Messaging.csproj", "{9350DB05-B007-4DFB-A5AA-ABF5FB609B01}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,7 +23,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7FAAA985-7AC4-40DE-9F97-2B72F0DBE877} = {0FC2BAA6-1D60-4463-B37B-1BCEF774C144}
 		{F30A5D50-B858-4B56-8821-150961524DCD} = {047B777A-1946-4B07-876C-254FD4C47E53}
-		{9350DB05-B007-4DFB-A5AA-ABF5FB609B01} = {378C0755-2731-4032-A984-7F92312AB655}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7FAAA985-7AC4-40DE-9F97-2B72F0DBE877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,9 +33,5 @@ Global
 		{F30A5D50-B858-4B56-8821-150961524DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30A5D50-B858-4B56-8821-150961524DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30A5D50-B858-4B56-8821-150961524DCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9350DB05-B007-4DFB-A5AA-ABF5FB609B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9350DB05-B007-4DFB-A5AA-ABF5FB609B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9350DB05-B007-4DFB-A5AA-ABF5FB609B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9350DB05-B007-4DFB-A5AA-ABF5FB609B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

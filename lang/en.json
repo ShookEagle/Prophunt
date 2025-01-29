@@ -1,2 +1,5 @@
 {
+  "prefix": "{blue}[Prophunt]{white}",
+  "admin": "{red}(Admin){white}",
+  "error": "{darkred}An error has occured:{red}"
 }
