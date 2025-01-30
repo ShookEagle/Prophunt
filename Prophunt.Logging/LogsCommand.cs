@@ -1,0 +1,17 @@
+using CounterStrikeSharp.API.Core;
+using CounterStrikeSharp.API.Core.Attributes.Registration;
+using CounterStrikeSharp.API.Modules.Admin;
+using CounterStrikeSharp.API.Modules.Commands;
+using Prophunt.Public.Behaviors;
+using Prophunt.Public.Mod.Logging;
+
+namespace Prophunt.Logging;
+
+public class LogsCommand(ILogService logs) : IPluginBehavior
+{
+    [ConsoleCommand("css_logs")]
+    [RequiresPermissionsOr("@css/ban", "@css/generic", "@css/kick")]
+    public void Command_Logs(CCSPlayerController? executor, CommandInfo info) {
+        logs.PrintLogs(executor);
+    }
+}

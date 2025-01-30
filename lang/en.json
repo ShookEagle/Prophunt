@@ -1,5 +1,9 @@
 {
   "prefix": "{blue}[Prophunt]{white}",
   "admin": "{red}(Admin){white}",
-  "error": "{darkred}An error has occured:{red}"
+  "error": "{darkred}An error has occured:{red}",
+  "team.prop.name": "Props",
+  "team.seeker.name": "Hunters",
+  "logs.begin_logs": "********************************\n****** BEGIN PROPHUNT LOGS *****\n********************************",
+  "logs.end_logs": "********************************\n******* END PROPHUNT LOGS ******\n********************************"
 }
