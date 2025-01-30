@@ -10,5 +10,6 @@ public class ProphuntServiceCollection : IPluginServiceCollection<Prophunt>
     public void ConfigureServices(IServiceCollection serviceCollection)
     {
         serviceCollection.AddProphuntMessaging();
+        serviceCollection.AddLogging();
     }
 }

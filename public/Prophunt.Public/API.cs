@@ -1,4 +1,4 @@
-﻿using CounterStrikeSharp.API.Core.Capabilities;
+using CounterStrikeSharp.API.Core.Capabilities;
 
 namespace Prophunt.Public;
 

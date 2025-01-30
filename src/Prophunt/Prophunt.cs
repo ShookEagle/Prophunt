@@ -1,4 +1,4 @@
-﻿using System.Collections.Immutable;
+using System.Collections.Immutable;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Capabilities;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,9 +8,6 @@ using Prophunt.Public.Behaviors;
 
 namespace Prophunt;
 
-/// <summary>
-///   The classic Prophunt gamemode, ported to Counter-Strike 2.
-/// </summary>
 public class Prophunt : BasePlugin {
   public static Prophunt? Instance { get; private set; }
   private readonly IServiceProvider provider;

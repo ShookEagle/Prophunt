@@ -10,6 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="CounterStrikeSharp.API" Version="1.0.305" />
         <PackageReference Include="coverlet.collector" Version="6.0.0"/>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
         <PackageReference Include="NUnit" Version="3.14.0"/>
@@ -22,7 +23,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Prophunt.Public\Prophunt.Public.csproj" />
+      <ProjectReference Include="..\..\mod\Prophunt.Messaging\Prophunt.Messaging.csproj" />
+      <ProjectReference Include="..\..\public\Prophunt.Public\Prophunt.Public.csproj" />
     </ItemGroup>
 
 </Project>
